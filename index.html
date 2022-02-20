@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/login.css"/>
+    <script src="js/login.js"></script>
+    <title>《大话西游》</title>
+</head>
+
+<style>
+.con{
+    height:80vh;
+    background-color: #ffffff !important; 
+}.img_login{
+    width:350px;
+    height:240px;
+    border-radius: 10px;
+}.logo{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+</style>
+
+<body style="display:flex;height:100vh;align-items: center;">
+    <div class="con">
+        <div class="head">
+            <div class="logo">
+                <h1>《大话西游之大圣娶亲》</h1>
+            </div>
+            <div style="display:flex;width:100%;align-items: flex-end;justify-content: center;">
+                <img class="img_login" src="images/login.jpg">
+                <div class="login_into">
+                    <div class="login_form">
+                        <form name="user" method="post">
+                            <dl>
+                                <dt>帐 号：</dt>
+                                <dd><input type="text" id="username" name="user_name"/></dd>
+                            </dl>
+                            <dl>
+                                <dt>密 码：</dt>
+                                <dd><input type="password" id="password" name="password"/></dd> 
+                            </dl>
+                            <dl>
+                                <dt></dt>
+                                <dd><input type="button" class="submit" onclick="login()" value="登录"/></dd>
+                            </dl>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        <!-- <div class="lunbo"><a href="#"><img src="images/d1.jpg"  width="1024"/></a></div> -->
+        <div class="clear"></div>
+        <div class="main"></div>
+        <div class="clear"></div>
+    </div>
+</body>
+
+</html>
